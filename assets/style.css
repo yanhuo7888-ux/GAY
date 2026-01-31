@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  padding: 40px;
+}
+
+h1, h2 {
+  margin-bottom: 15px;
+}
+
+p {
+  color: #ccc;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 22px;
+  background: #ff4d5a;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 30px;
+}
