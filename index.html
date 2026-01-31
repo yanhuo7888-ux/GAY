@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Dating Community</title>
-<script>
-  const routes = ['gay/', 'straight/', 'shemale/'];
-  const pick = routes[Math.floor(Math.random() * routes.length)];
-  window.location.href = pick;
-</script>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+  <script>
+    const routes = ['gay/', 'straight/', 'shemale/'];
+    const pick = routes[Math.floor(Math.random() * routes.length)];
+    window.location.replace(pick);
+  </script>
 </head>
 <body>
-Loading...
 </body>
 </html>
